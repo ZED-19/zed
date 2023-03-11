@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zed/static/css/main.df8d5f6e.css",
+    "main.js": "/zed/static/js/main.9dc49e20.js",
+    "static/media/portfolio_img.png": "/zed/static/media/portfolio_img.fb1a3155b642c88591ab.png",
+    "static/media/web_dev.jpg": "/zed/static/media/web_dev.6cdb10857eb4d8bc2e9c.jpg",
+    "static/media/app_2.png": "/zed/static/media/app_2.c36479328c06768fe6b9.png",
+    "static/media/mobile_dev.jpg": "/zed/static/media/mobile_dev.2664418daddb1a370d91.jpg",
+    "static/media/app_4.png": "/zed/static/media/app_4.7f4ce574be0a93197e84.png",
+    "static/media/app_1.png": "/zed/static/media/app_1.fe5f22fdfa6fda2500bb.png",
+    "static/media/app_3.png": "/zed/static/media/app_3.a6c7eea12cc14e1041b3.png",
+    "static/media/line.svg": "/zed/static/media/line.046b54caee587d79718cc1d644ece910.svg",
+    "index.html": "/zed/index.html",
+    "main.df8d5f6e.css.map": "/zed/static/css/main.df8d5f6e.css.map",
+    "main.9dc49e20.js.map": "/zed/static/js/main.9dc49e20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df8d5f6e.css",
+    "static/js/main.9dc49e20.js"
+  ]
+}

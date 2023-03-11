@@ -1,0 +1,91 @@
+.container {
+  padding: 0 10vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.childContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 5vw;
+  width: fit-content;
+}
+.txtContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 1.5vw;
+  width: 50vw;
+}
+.txt {
+  font-size: 1.4vw;
+  font-weight: 300;
+}
+.txt span {
+  font-weight: 500;
+}
+.cvBtn {
+  display: inline-block;
+  background: linear-gradient(to right, #6d28d9 0%, #4c1d95 100%);
+  color: #f1f5f9;
+  text-decoration: none;
+  padding: 0.6vw 1.17vw;
+  border-radius: 0.4vw;
+  box-shadow: #475569 0 0 5px;
+  transition: 0.25s;
+}
+.cvBtn:active {
+  box-shadow: none;
+}
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(to bottom, #6d28d9 0%, #4c1d95 100%);
+  width: 13.67vw;
+  height: 13.67vw;
+  border-radius: 8vw;
+  overflow: hidden;
+}
+.zedImage {
+  height: 12vw;
+}
+
+/* For Large Screen */
+@media only screen and (min-width: 481px) {
+}
+
+/* For Mobile Screen */
+@media only screen and (max-width: 480px) {
+  .container {
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 15px;
+    padding: 25px 25px 0 25px;
+  }
+  .childContainer {
+    width: fit-content;
+    row-gap: 5px;
+  }
+  .txtContainer {
+    width: 100%;
+  }
+  .txt {
+    font-size: 12.5px;
+  }
+  .cvBtn {
+    display: none;
+  }
+  .imageWrap {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+  .zedImage {
+    height: 125px;
+  }
+}

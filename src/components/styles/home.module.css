@@ -1,0 +1,139 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.95vw 10vw;
+}
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(to top, #6d28d9 0%, #4c1d95 100%);
+  padding: 2.5vw 3.5vw 0 3.5vw;
+  border-radius: 12.5vw 12.5vw 12.5vw 5px;
+  box-shadow: -1.2vw 1vw #f97316;
+}
+.image {
+  height: 37.5vw;
+}
+.paragraph_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+}
+.welcome {
+  font-weight: 500;
+  font-size: 2vw;
+  color: #1e293b;
+}
+.intro {
+  font-weight: 1000;
+  font-size: 5vw;
+  background: linear-gradient(145deg, #6d28d9 0%, #4c1d95 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: gradient 1.5s ease infinite;
+}
+.job_description span {
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 2vw;
+}
+.job_description {
+  margin-top: 1vw;
+  font-size: 1.75vw;
+  font-weight: 300;
+  width: 40vw;
+  color: #1e293b;
+}
+.line {
+  width: 50%;
+  height: 0.4vw;
+  border-radius: 3px;
+  margin: 1vw;
+  align-self: center;
+  background-color: #f97316;
+}
+.lets {
+  font-size: 2.75vw;
+  font-weight: 700;
+  width: fit-content;
+  color: #1e293b;
+}
+.lets span {
+  color: #f97316;
+}
+.lets img {
+  height: 5vw;
+  margin-top: 1.15vw;
+  margin-left: 0.5vw;
+}
+.lets div {
+  display: flex;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* For Large Screen */
+@media only screen and (min-width: 481px) {
+}
+
+/* For Mobile Screen */
+@media only screen and (max-width: 480px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.95vw 7.5vw 0 7.5vw;
+    row-gap: 10px;
+  }
+  .welcome {
+    font-size: 3.5vw;
+  }
+  .intro {
+    font-size: 12.5vw;
+    text-align: center;
+  }
+  .imageWrap {
+    margin-top: 7.5px;
+    padding: 5vw 5vw 0 5vw;
+    border-radius: 25vw 25vw 5px 5px;
+    border-bottom: #f97316 7.5px solid;
+    box-shadow: none;
+  }
+  .image {
+    height: 90vw;
+  }
+  .job_description {
+    margin-top: 0;
+    width: 100%;
+    font-size: 17.5px;
+    text-align: center;
+  }
+  .job_description span {
+    font-size: 20px;
+  }
+  .line {
+    height: 2px;
+    margin: 0;
+  }
+  .lets {
+    font-size: 22.5px;
+    text-align: center;
+  }
+  .icon {
+    color: #f97316;
+    font-size: 22.5px;
+  }
+}

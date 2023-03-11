@@ -1,0 +1,41 @@
+.titleContainer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: -webkit-linear-gradient(45deg, #6d28d9 0%, #4c1d95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1vw;
+  padding-top: 2.75vw;
+}
+.titleLine {
+  width: 75%;
+  height: 0.39vw;
+  background: linear-gradient(45deg, #6d28d9 0%, #4c1d95 100%);
+  border-radius: 0.8vw;
+}
+.title {
+  font-size: 4vw;
+  text-transform: capitalize;
+  font-weight: 1000;
+}
+
+/* For Large Screen */
+@media only screen and (min-width: 481px) {
+}
+
+/* For Mobile Screen */
+@media only screen and (max-width: 480px) {
+  .titleContainer {
+    margin-bottom: 5px;
+    padding-top: 10px;
+  }
+  .titleLine {
+    height: 2px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  
+}

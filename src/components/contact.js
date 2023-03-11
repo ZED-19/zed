@@ -37,7 +37,7 @@ function Contact() {
         <h3>You can find me on social networks</h3>
         <ul>
           <li>
-            <a href="#">
+            <a href="https://wa.me/0770084386">
               <Icon icon={"ri:whatsapp-fill"} className={style.icon} />
             </a>
           </li>
